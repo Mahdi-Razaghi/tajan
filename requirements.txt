@@ -1,0 +1,61 @@
+# ==============================================
+# 📦 Dependencies for the "Tajan" Project
+# ==============================================
+#
+#    Author:
+#  __ Mahdi Razaghi __
+#
+#
+# 🐍 Recommended Python version: 3.10 or higher
+#
+# 📌 Installation instructions:
+#
+## Navigate to the project directory
+# ===>  cd tajan
+#
+## Then install the dependencies
+# ===>   pip install -r requirements.txt
+#
+#
+# ==============================================
+
+# ---------- Core Libraries ----------
+# TensorFlow 2.15.0 - latest stable version, paired with Keras 2.15.0
+# Note: for systems without a GPU, use tensorflow-cpu instead
+tensorflow==2.15.0
+
+# NumPy 1.24.3 - numerical computing (compatible with tensorflow 2.15)
+numpy==1.24.3
+
+# Pandas 2.1.4 - tabular data handling
+pandas==2.1.4
+
+# ---------- Machine Learning ----------
+# scikit-learn 1.3.2 - machine learning tools
+scikit-learn==1.3.2
+
+# NLTK 3.8.1 - English language processing (WordNet)
+nltk==3.8.1
+
+# ---------- Persian NLP ----------
+# Hazm 0.9.0 - Persian language processing (normalization and lemmatization)
+hazm==0.9.0
+
+# ---------- Visualization ----------
+# Matplotlib 3.8.2 - plotting model performance charts
+matplotlib==3.8.2
+
+
+# ==============================================
+# 🔧 Optional installation variants:
+#
+# 1. To install TensorFlow with GPU support:
+#    pip install tensorflow-gpu==2.15.0
+#
+# 2. To install in environments without internet access:
+#    First download the wheel files, then install offline:
+#    pip install --no-index --find-links ./packages -r requirements.txt
+#
+# 3. To troubleshoot installation errors:
+#    pip install --upgrade pip setuptools wheel
+# ==============================================
