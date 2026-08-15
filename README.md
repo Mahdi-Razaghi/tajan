@@ -136,8 +136,6 @@ This project is licensed under the **MIT License** – feel free to use, modify,
 
 **Mahdi Razaghi**  
 
-Email : phytonabcdefg1380@gmail.com
-
 ---
 
 ## ⭐ Show Your Support
