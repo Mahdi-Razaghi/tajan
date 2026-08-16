@@ -35,7 +35,7 @@ pandas==2.1.4
 scikit-learn==1.3.2
 
 # NLTK 3.8.1 - English language processing (WordNet)
-nltk==3.8.1
+nltk==3.10.0
 
 # ---------- Persian NLP ----------
 # Hazm 0.9.0 - Persian language processing (normalization and lemmatization)
